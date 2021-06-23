@@ -43,7 +43,7 @@ a:hover{
 .formulario {
     width: 450px;
     height: 380px;
-    background: rgb(232, 255, 213);
+    background: rgb(235, 253, 255);
     color: #0f9fb8;
     padding: 55px 30px;
     margin: auto;
@@ -97,6 +97,6 @@ input {
       height: 350px;
     }
   }
-::placeholder{color: rgb(183, 230, 152);}
+::placeholder{color: rgb(171, 201, 204);}
 
  
