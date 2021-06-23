@@ -44,12 +44,7 @@ h1{
     color: rgb(226, 246, 248);
     border-radius:12px;
 } 
-@media screen and (max-width:1200px) {
-    .container .logo{
-        width: 30%;
-        margin-top: 150px;
-    } 
-}
+
 @media screen and (max-width:980px) {
     .container .logo{
         width: 40%;
