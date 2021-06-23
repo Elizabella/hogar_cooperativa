@@ -1,4 +1,8 @@
 @font-face {
+  font-family: Sora;
+  src: url(../Fonts/Sora-Regular.ttf);   
+}
+@font-face {
   font-family: Sora2;
   src:url(../Fonts/Sora-ExtraLight.ttf);
 }
@@ -6,126 +10,93 @@
   font-family: Sora5;
   src: url(../Fonts/Sora-Bold.ttf);
 }
-@font-face {
-  font-family: Sora;
-  src: url(../Fonts/Sora-Regular.ttf);   
-}
+
 *{
+  margin: 0;
+  padding: 0;
   font-family: Sora;
 }
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  margin:80px auto;
+  text-align: center;
+  width:90%;
 
-.navbar {
-      font-family: Sora;
-      /* color: white; */
 }
-
-body {
-    margin: 0;
-    padding: 0;
-   
-    font-family: sans-serif;
-    /* height: 100vh; */
+h1{
+  color: #767879;
+  font-size:xx-large; 
   }
-  .b h1{
-    text-align: center;
-    transform:translate(0%, 150%);
-    color: #767879;
-    font-size:xx-large;
-  }
-  .b p{
-    text-align: center;
-    transform:translate(0%, 250%);
-    color: #a5a5a5;
-    font-size: large;
-  }
-  .b .login-box {
+p{
+  color: #a5a5a5;
+  font-size: large;
+}
+a{ 
+  color: rgb(255, 255, 255);
+  font-family: "Sora2";
+  padding: 0 10px;
+}
+a:hover{
+  font-family: "Sora5";
+}
+.formulario {
     width: 450px;
     height: 380px;
-    background: rgb(255, 254, 254);
+    background: rgb(232, 255, 213);
     color: #0f9fb8;
-    top: 10%;
-    left: 30%;
-    position: absolute;
-    transform: translate(22%, 50%); 
-    /* transform: translate(120%, 25%);  */
-    /* transform: translate(-50%, -20%); */
-    box-sizing: border-box;
     padding: 55px 30px;
-  }
+    margin: auto;
+}
 
-  
-  .b .login-box label {
-    margin: 0;
-    padding: 0;
+ 
+label {
     font-weight: bold;
-    display: block;
-  }
-  
-  .b .login-box input {
+}
+
+.origen{
+  text-align: start;
+  width: 100%;
+}
+input {
     width: 100%;
     margin-bottom: 20px;
   }
- 
-  .b .login-box input[type="number"]  {
-   
-    /* background: transparent; */
+.formulario input[type="number"]  {
     outline: bottom;
     height: 40px;
-    color: rgb(3, 3, 3);
+    color: rgb(8, 8, 8);
+    border:none;
     font-size: 16px;
-    line-height: 20px;
- 
-  }
-  .b .login-box .c label {
-    
-    font-weight: bold;
-    text-align: center;
-  }
-  .b .login-box .c  input[type="text"]{
+}
+.transferencia  input[type="text"]{
     display: block;
     width: 50%;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #46A2FD;
     font-size: 20px;
-    text-align: center;
-    outline: bottom;
     transform: translate(50%, 20%)
-  }
-  
-  .b .login-box input[type="submit"] {
-    border-radius: 5px;
+}
+.formulario input[type="submit"] {
+    border-radius: 10px;
     padding: 10px 30px;
-    /* text-decoration: none; */
     color: #fff;
     background-color: #46A2FD;
-    margin: 0px auto;
+    border: none;
+    margin: auto;
     display: block;
-    width: 200px;
-    text-align: center;
-    transition: 0.2s linear all;
-    /* border: none;
-    outline: none;
-    height: 40px;
-    background: #0f9fb8;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 6px; */
+    width: 50%;
   }
-  
-  .b .login-box input[type="submit"]:hover {
-    cursor: pointer;
-    background: #55ff07;
-    color: #000;
+.formulario input[type="submit"]:hover {
+    background: #000000;
+    font-family: Sora5;
   }
-a{
-   
-    color: rgb(255, 255, 255);
-    font-family: "Sora2";
-    padding: 0 10px;
-}
-a:hover{
-    font-family: "Sora5";
-}
-  
+  @media screen and (max-width:600px){
+    .formulario{
+      width: 370px;
+      height: 350px;
+    }
+  }
+::placeholder{color: rgb(183, 230, 152);}
+
  
-  
