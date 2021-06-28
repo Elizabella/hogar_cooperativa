@@ -33,6 +33,12 @@ font-family: Sora;
     width: 50vw;
     
 }
+a{
+   
+    color: rgb(255, 255, 255);
+    font-family: "Sora2";
+    padding: 0 10px;
+}
 a:hover{
     font-family: "Sora5";
 }
