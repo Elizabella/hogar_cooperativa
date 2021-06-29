@@ -1,0 +1,39 @@
+:root {
+  --theme-color: rgb(255, 255, 255);
+  --primary-color: #124f88;
+  --secundary-color: #F7C331;
+  --text-color-inverse: white;
+  --text-color: black;
+  --navbar-shallow-color: #6ECAF1;
+  
+  
+}
+/* #124f88 */
+body {
+  /* font-family: 'Montserrat', sans-serif; */
+  background-color: var(--theme-color);
+  color: var(--text-color);
+  /* padding-top: 70px; */
+}
+
+
+
+.horizontal-padding {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.vertical-padding {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media (min-width: 950px) {
+  .horizontal-padding {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .vertical-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
