@@ -1,148 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/inversiones.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/inversiones.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/profile.css">
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
-    />
-    <title>inversiones</title>
+  <link rel="stylesheet" href="css/profile.css">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="./css/inversiones.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
+  <title>inversiones</title>
 
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6ECAF1;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./img/logo1_sinnom.png" width="70" height="60"
-                class="d-inline-block align-text-top"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a href="mi_cuenta.html"     class="nav-link"    style="color: #fff;" >MI CUENTA</a></li>
-                    <li class="nav-item"><a href="transferencia.html" class="nav-link"    style="color: #fff;">TRANSFFERENCIAS</a></li>
-                    <li class="nav-item dropdown"><a href="#"   class="nav-link dropdown-toggle" style="color: #fff;"
-                        id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">CREDITOS</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a href="creditos.html" class="dropdown-item">SOLICITUDES</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a href="#"                            class="dropdown-item">MIS CREDITOS</a></li>
-                        </ul></li>
-                    <li class="nav-item"><a href="inversiones.html"    class="nav-link"     style="color: #fff;">INVERSIONES</a></li>
-                    <li class="nav-item"><a href="faucet.html"         class="nav-link"     style="color: #fff;">FAUCET</a></li>
-                    <li class="nav-item"><a href="encuentranos.html"   class="nav-link"     style="color: #fff;">ENCUENTRANOS</a></li>
-                    <li class="nav-item"><a href="index.html"          class="nav-link"     style="color: #fff;">CERRAR SESION</a></li>
-                </ul>
-            </div>           
-        </div>
-    </nav>
-    
-    
-    <!-- <div> -->
-        <div class="horizontal-padding vertical-padding">
-            <section class="mb-3 celeste">
-                <h1 class="profile-title-3 d-flex justify-content-center">INVERSIONES</h1>
-                <p class="text-center">Genera una rentabilidad sobre tus ahorros invirtiendo en algunos de nuestros fondos. A tan solo un simple paso</p>
-            </section>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6ECAF1;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./img/logo1_sinnom.png" width="70" height="60"
+          class="d-inline-block align-text-top"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a href="mi_cuenta.html" class="nav-link" style="color: #fff;">MI CUENTA</a></li>
+          <li class="nav-item"><a href="transferencia.html" class="nav-link" style="color: #fff;">TRANSFFERENCIAS</a>
+          </li>
+          <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" style="color: #fff;"
+              id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">CREDITOS</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a href="creditos.html" class="dropdown-item">SOLICITUDES</a></li>
+              <hr class="dropdown-divider">
+              <li><a href="#" class="dropdown-item">MIS CREDITOS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="inversiones.html" class="nav-link" style="color: #fff;">INVERSIONES</a></li>
+          <li class="nav-item"><a href="faucet.html" class="nav-link" style="color: #fff;">FAUCET</a></li>
+          <li class="nav-item"><a href="encuentranos.html" class="nav-link" style="color: #fff;">ENCUENTRANOS</a></li>
+          <li class="nav-item"><a href="index.html" class="nav-link" style="color: #fff;">CERRAR SESION</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-        </div>
-            
 
-       
+  <!-- <div> -->
+  <div class="horizontal-padding vertical-padding">
+    <section class="mb-3 celeste">
+      <h1 class="profile-title-3 d-flex justify-content-center">INVERSIONES</h1>
+      <p class="text-center">Genera una rentabilidad sobre tus ahorros invirtiendo en algunos de nuestros fondos. A tan
+        solo un simple paso</p>
+    </section>
 
-          <!-- inicio  -->
-        <div class="p-3 mb-2" style="background-color: #6ECAF1;">
-            <div class="horizontal-padding vertical-padding">
-                <section class="profile">
-                  <div class="profile-info">
-                    <h1 class="profile-title-2  d-flex justify-content-center">FONDO HOGAR</h1>
-                    <p class="profile-details text-center">
-                        Este fondo es invertido como parte del capital de la cooperativa para proveer credito a los socios
-                    </p>
-                    <div class="d-flex justify-content-center">
-                        <button class="profile-btn">Invertir</button>
+  </div>
+
+
+
+
+  <!-- inicio  -->
+  <div class="p-3 mb-2" style="background-color: #6ECAF1;">
+    <div class="horizontal-padding vertical-padding">
+      <section class="profile">
+        <div class="profile-info">
+          <h1 class="profile-title-2  d-flex justify-content-center">FONDO HOGAR</h1>
+          <p class="profile-details text-center">
+            Este fondo es invertido como parte del capital de la cooperativa para proveer credito a los socios
+          </p>
+
+          <div class="d-flex justify-content-center">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary profile-btn" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              Invertir
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <div class="profile-info main">
+                      <div class="row d-flex justify-content-center">
+                        <img class="logo_pop" src="./img/LogoCeleste-sinNombre.png" alt="programador" />
+                      </div>
+                      <div class="row d-flex justify-content-center">
+                        <h1 class="profile-title-3 d-flex justify-content-center">FONDO HOGAR</h1>
+                        <p class="profile-details text-center fs-6 celeste">
+                          Este fondo es invertido como parte del capital de la cooperativa para proveer credito a los
+                          socios
+                        </p>
+                      </div>
+                      <div class="container ">
+                        <div class="row text-center">
+                          <div class="col-sm-5 col-md-6">APR</div>
+                          <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">8%</div>
+                        </div>
+                        <div class="row text-center">
+                          <div class="col-sm-6 col-md-5 col-lg-6 mt-2">Total de Fondo</div>
+                          <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0 mt-2">S/. 1'000'245.24</div>
+                        </div>
+                      </div>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container ">
+                      <div class="row text-center">
+                        <div class="col-sm-5 col-md-6 fs-4">S/. 1'897.00 <div class="celeste fs-5">CAPITAL EN
+                            FONDO</div>
+                        </div>
+                        <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0 fs-4">S/. 23.87 <div class="celeste fs-5">
+                            GANANCIA</div>
+                        </div>
+                      </div>
+
                     </div>
                   </div>
-                  <span class="profile-img-section">
-                    <img
-                      class="profile-img"
-                      src="img/LogoBlanco-sinNombre.png"
-                      alt="programador"
-                    />
-                 
-                  </span>
-                </section>
-            </div>
-        
-        </div>
-         
-
-        <div class="horizontal-padding vertical-padding">
-            <section class="profile">
-                <span class="profile-img-section">
-                    <img
-                      class="profile-img"
-                      src="img/Bolsa_de_Valores_de_Lima_logo.png"
-                      alt="programador"
-                    />
-                 
-                  </span>  
-              <div class="profile-info">
-                <h1 class="profile-title-3 d-flex justify-content-center">FONDO BVL</h1>
-                <p class="profile-details text-center">
-                    Este fondo es invertido en la bolsa de valores de Lima
-                </p>
-                <div class="d-flex justify-content-center">
-                    <button class="profile-btn">Invertir</button>
+                  <div class="modal-footer">
+                    <div class="container mt-4 ">
+                      <div class="row text-center ">
+                        <div class="col-sm-5 col-md-6">
+                          <div class="input-group mb-3">
+                            <span class="input-group-text">S/.</span>
+                            <input type="text" class="form-control"
+                              aria-label="Soles amount (with dot and two decimal places)" placeholder="500.00">
+                          </div>
+                        </div>
+                        <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                          <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input type="text" class="form-control"
+                              aria-label="Dollar amount (with dot and two decimal places)" placeholder="500.00">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-2 p-3">
+                        <div class="col d-flex justify-content-center">
+                          <button type="button" class="btn btn-primary fs-5">Invertir</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              
-            </section>
+            </div>
+          </div>
         </div>
+        <span class="profile-img-section">
+          <img class="profile-img" src="img/LogoBlanco-sinNombre.png" alt="programador" />
+        </span>
+    </div>
 
-        <div class="p-3 " style="background-color: #6ECAF1;">
-            <div class="horizontal-padding vertical-padding" >
-                <section class="profile">
-                  <div class="profile-info ">
-                    <h1 class="profile-title-2 d-flex justify-content-center">FONDO<br/></h1>
-                    <h1 class="profile-title-2 d-flex justify-content-center">INTERNACIONAL</h1>
-                    <p class="profile-details text-center">
-                        Este fondo es invertido en acciones de NASDAQ
-                    </p>
-                    <div class="d-flex justify-content-center">
-                        <button class="profile-btn">Invertir</button>
+    </section>
+  </div>
+
+  </div>
+
+
+  <div class="horizontal-padding vertical-padding">
+    <section class="profile">
+      <span class="profile-img-section">
+        <img class="profile-img" src="img/Bolsa_de_Valores_de_Lima_logo.png" alt="programador" />
+
+      </span>
+      <div class="profile-info">
+        <h1 class="profile-title-3 d-flex justify-content-center">FONDO BVL</h1>
+        <p class="profile-details text-center">
+          Este fondo es invertido en la bolsa de valores de Lima
+        </p>
+        <div class="d-flex justify-content-center">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary profile-btn" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            Invertir
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+
+                  <div class="profile-info main">
+                    <div class="row d-flex justify-content-center">
+                      <img class="logo_pop" src="./img/LogoCeleste-sinNombre.png" alt="programador" />
                     </div>
-                    
-                 
+                    <div class="row d-flex justify-content-center">
+                      <h1 class="profile-title-3 d-flex justify-content-center">FONDO HOGAR</h1>
+                      <p class="profile-details text-center fs-6 celeste">
+                        Este fondo es invertido como parte del capital de la cooperativa para proveer credito a los
+                        socios
+                      </p>
+                    </div>
+                    <div class="container ">
+                      <div class="row text-center">
+                        <div class="col-sm-5 col-md-6">APR</div>
+                        <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">8%</div>
+                      </div>
+                      <div class="row text-center">
+                        <div class="col-sm-6 col-md-5 col-lg-6 mt-2">Total de Fondo</div>
+                        <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0 mt-2">S/. 1'000'245.24</div>
+                      </div>
+                    </div>
                   </div>
-                  <span class="profile-img-section">
-                    <img
-                      class="profile-img"
-                      src="img/nasdaq-logo.png"
-                      alt="programador"
-                    />
-                  </span>
-                </section>
-              </div>
-        </div>
-        
-         
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container ">
+                    <div class="row text-center">
+                      <div class="col-sm-5 col-md-6 fs-4">S/. 1'897.00 <div class="celeste fs-5">CAPITAL EN
+                          FONDO</div>
+                      </div>
+                      <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0 fs-4">S/. 23.87 <div class="celeste fs-5">
+                          GANANCIA</div>
+                      </div>
+                    </div>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
-    
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <div class="container mt-4 ">
+                    <div class="row text-center ">
+                      <div class="col-sm-5 col-md-6">
+                        <div class="input-group mb-3">
+                          <span class="input-group-text">S/.</span>
+                          <input type="text" class="form-control"
+                            aria-label="Soles amount (with dot and two decimal places)" placeholder="500.00">
+                        </div>
+                      </div>
+                      <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                        <div class="input-group mb-3">
+                          <span class="input-group-text">$</span>
+                          <input type="text" class="form-control"
+                            aria-label="Dollar amount (with dot and two decimal places)" placeholder="500.00">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mb-2 p-3">
+                      <div class="col d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary fs-5">Invertir</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+
+  </section>
+  </div>
+
+  <div class="p-3 " style="background-color: #6ECAF1;">
+    <div class="horizontal-padding vertical-padding">
+      <section class="profile">
+        <div class="profile-info ">
+          <h1 class="profile-title-2 d-flex justify-content-center">FONDO<br /></h1>
+          <h1 class="profile-title-2 d-flex justify-content-center">INTERNACIONAL</h1>
+          <p class="profile-details text-center">
+            Este fondo es invertido en acciones de NASDAQ
+          </p>
+
+          <div class="d-flex justify-content-center">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary profile-btn" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              Invertir
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <div class="profile-info main">
+                      <div class="row d-flex justify-content-center">
+                        <img class="logo_pop" src="./img/LogoCeleste-sinNombre.png" alt="programador" />
+                      </div>
+                      <div class="row d-flex justify-content-center">
+                        <h1 class="profile-title-3 d-flex justify-content-center">FONDO HOGAR</h1>
+                        <p class="profile-details text-center fs-6 celeste">
+                          Este fondo es invertido como parte del capital de la cooperativa para proveer credito a los
+                          socios
+                        </p>
+                      </div>
+                      <div class="container ">
+                        <div class="row text-center">
+                          <div class="col-sm-5 col-md-6">APR</div>
+                          <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">8%</div>
+                        </div>
+                        <div class="row text-center">
+                          <div class="col-sm-6 col-md-5 col-lg-6 mt-2">Total de Fondo</div>
+                          <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0 mt-2">S/. 1'000'245.24</div>
+                        </div>
+                      </div>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container ">
+                      <div class="row text-center">
+                        <div class="col-sm-5 col-md-6 fs-4">S/. 1'897.00 <div class="celeste fs-5">CAPITAL EN
+                            FONDO</div>
+                        </div>
+                        <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0 fs-4">S/. 23.87 <div class="celeste fs-5">
+                            GANANCIA</div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="container mt-4 ">
+                      <div class="row text-center ">
+                        <div class="col-sm-5 col-md-6">
+                          <div class="input-group mb-3">
+                            <span class="input-group-text">S/.</span>
+                            <input type="text" class="form-control"
+                              aria-label="Soles amount (with dot and two decimal places)" placeholder="500.00">
+                          </div>
+                        </div>
+                        <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                          <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input type="text" class="form-control"
+                              aria-label="Dollar amount (with dot and two decimal places)" placeholder="500.00">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-2 p-3">
+                        <div class="col d-flex justify-content-center">
+                          <button type="button" class="btn btn-primary fs-5">Invertir</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="profile-img-section">
+          <img class="profile-img" src="img/nasdaq-logo.png" alt="programador" />
+        </span>
+    </div>
+    </section>
+  </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>
